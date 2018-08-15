@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
   bluez \
   libbluetooth-dev \
   libudev-dev
-RUN npm install noble
+
 RUN npm install sensortag
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
