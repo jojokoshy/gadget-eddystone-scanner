@@ -1,6 +1,6 @@
 This docker image now works for bluetooth. !
 
-docker run --privileged --net=host bledocker bash
+**docker run -it --privileged --net=host bledocker bash**
 
 
 # gadget-eddystone-scanner
